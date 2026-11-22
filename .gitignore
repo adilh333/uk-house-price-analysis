@@ -1,0 +1,27 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+*.egg-info/
+.eggs/
+dist/
+build/
+.DS_Store
+
+# Downloaded and derived data. A small cleaned sample lives in data/sample/.
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+*.part
+
+# Fitted models are reproduced by the modelling notebook.
+models/
+*.joblib
+*.pkl

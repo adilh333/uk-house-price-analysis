@@ -1,0 +1,13 @@
+{
+  "rows_read": 2382455,
+  "dropped_invalid_price_or_date": 0,
+  "dropped_deleted": 0,
+  "dropped_non_standard": 402983,
+  "dropped_property_type": 0,
+  "dropped_tenure": 0,
+  "dropped_new_build_flag": 0,
+  "dropped_price_bounds": 1119,
+  "dropped_duplicate_ids": 0,
+  "rows_unknown_region": 0,
+  "rows_kept": 1978353
+}
