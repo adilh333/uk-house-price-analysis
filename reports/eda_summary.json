@@ -1,0 +1,357 @@
+{
+  "n_rows_read": 2382455,
+  "n_excluded": 404102,
+  "n_sales": 1978353,
+  "n_provisional": 60350,
+  "n_complete": 1918003,
+  "date_min": "2024-01-01",
+  "date_max_complete": "2026-07-31",
+  "date_max_including_provisional": "2026-09-30",
+  "median_price": 295000.0,
+  "mean_price": 364213.97308294097,
+  "p95_price": 830000.0,
+  "new_build_share": 0.06702127160385046,
+  "flat_leasehold_share": 0.9801314381782057,
+  "regions": [
+    {
+      "region": "London",
+      "median_price": 525000.0,
+      "sales": 204036
+    },
+    {
+      "region": "South East",
+      "median_price": 380011.0,
+      "sales": 318698
+    },
+    {
+      "region": "East of England",
+      "median_price": 345000.0,
+      "sales": 218511
+    },
+    {
+      "region": "South West",
+      "median_price": 310000.0,
+      "sales": 211919
+    },
+    {
+      "region": "West Midlands",
+      "median_price": 251000.0,
+      "sales": 176415
+    },
+    {
+      "region": "East Midlands",
+      "median_price": 250000.0,
+      "sales": 170744
+    },
+    {
+      "region": "North West",
+      "median_price": 225000.0,
+      "sales": 245538
+    },
+    {
+      "region": "Wales",
+      "median_price": 215000.0,
+      "sales": 98379
+    },
+    {
+      "region": "Yorkshire and The Humber",
+      "median_price": 214995.0,
+      "sales": 182947
+    },
+    {
+      "region": "North East",
+      "median_price": 173000.0,
+      "sales": 90816
+    }
+  ],
+  "property_types": [
+    {
+      "property_type": "Detached",
+      "median_price": 419995.0,
+      "sales": 498341,
+      "share": 0.2598228469924187
+    },
+    {
+      "property_type": "Flat",
+      "median_price": 240000.0,
+      "sales": 320607,
+      "share": 0.16715667285191943
+    },
+    {
+      "property_type": "Semi-detached",
+      "median_price": 271000.0,
+      "sales": 576386,
+      "share": 0.3005136071215738
+    },
+    {
+      "property_type": "Terraced",
+      "median_price": 237500.0,
+      "sales": 522669,
+      "share": 0.27250687303408805
+    }
+  ],
+  "new_build": [
+    {
+      "property_type": "Detached",
+      "new_build": "Existing",
+      "median_price": 420000.0,
+      "sales": 438716
+    },
+    {
+      "property_type": "Detached",
+      "new_build": "New build",
+      "median_price": 408452.0,
+      "sales": 59625
+    },
+    {
+      "property_type": "Flat",
+      "new_build": "Existing",
+      "median_price": 230000.0,
+      "sales": 297173
+    },
+    {
+      "property_type": "Flat",
+      "new_build": "New build",
+      "median_price": 368595.0,
+      "sales": 23434
+    },
+    {
+      "property_type": "Semi-detached",
+      "new_build": "Existing",
+      "median_price": 270000.0,
+      "sales": 542935
+    },
+    {
+      "property_type": "Semi-detached",
+      "new_build": "New build",
+      "median_price": 288000.0,
+      "sales": 33451
+    },
+    {
+      "property_type": "Terraced",
+      "new_build": "Existing",
+      "median_price": 235000.0,
+      "sales": 510632
+    },
+    {
+      "property_type": "Terraced",
+      "new_build": "New build",
+      "median_price": 275000.0,
+      "sales": 12037
+    }
+  ],
+  "monthly": [
+    {
+      "month": "2024-01",
+      "median_price": 281000.0,
+      "sales": 45756,
+      "provisional": false
+    },
+    {
+      "month": "2024-02",
+      "median_price": 280000.0,
+      "sales": 50704,
+      "provisional": false
+    },
+    {
+      "month": "2024-03",
+      "median_price": 280000.0,
+      "sales": 58437,
+      "provisional": false
+    },
+    {
+      "month": "2024-04",
+      "median_price": 280000.0,
+      "sales": 52054,
+      "provisional": false
+    },
+    {
+      "month": "2024-05",
+      "median_price": 288000.0,
+      "sales": 63298,
+      "provisional": false
+    },
+    {
+      "month": "2024-06",
+      "median_price": 295000.0,
+      "sales": 62375,
+      "provisional": false
+    },
+    {
+      "month": "2024-07",
+      "median_price": 295000.0,
+      "sales": 68843,
+      "provisional": false
+    },
+    {
+      "month": "2024-08",
+      "median_price": 300000.0,
+      "sales": 74768,
+      "provisional": false
+    },
+    {
+      "month": "2024-09",
+      "median_price": 300000.0,
+      "sales": 66581,
+      "provisional": false
+    },
+    {
+      "month": "2024-10",
+      "median_price": 300000.0,
+      "sales": 77495,
+      "provisional": false
+    },
+    {
+      "month": "2024-11",
+      "median_price": 295000.0,
+      "sales": 74529,
+      "provisional": false
+    },
+    {
+      "month": "2024-12",
+      "median_price": 295997.5,
+      "sales": 68990,
+      "provisional": false
+    },
+    {
+      "month": "2025-01",
+      "median_price": 299950.0,
+      "sales": 57389,
+      "provisional": false
+    },
+    {
+      "month": "2025-02",
+      "median_price": 299995.0,
+      "sales": 65501,
+      "provisional": false
+    },
+    {
+      "month": "2025-03",
+      "median_price": 325500.0,
+      "sales": 123716,
+      "provisional": false
+    },
+    {
+      "month": "2025-04",
+      "median_price": 252000.0,
+      "sales": 33982,
+      "provisional": false
+    },
+    {
+      "month": "2025-05",
+      "median_price": 275000.0,
+      "sales": 53820,
+      "provisional": false
+    },
+    {
+      "month": "2025-06",
+      "median_price": 290000.0,
+      "sales": 64355,
+      "provisional": false
+    },
+    {
+      "month": "2025-07",
+      "median_price": 295000.0,
+      "sales": 69572,
+      "provisional": false
+    },
+    {
+      "month": "2025-08",
+      "median_price": 300000.0,
+      "sales": 72851,
+      "provisional": false
+    },
+    {
+      "month": "2025-09",
+      "median_price": 300000.0,
+      "sales": 69194,
+      "provisional": false
+    },
+    {
+      "month": "2025-10",
+      "median_price": 298043.0,
+      "sales": 80152,
+      "provisional": false
+    },
+    {
+      "month": "2025-11",
+      "median_price": 300000.0,
+      "sales": 68683,
+      "provisional": false
+    },
+    {
+      "month": "2025-12",
+      "median_price": 290000.0,
+      "sales": 62985,
+      "provisional": false
+    },
+    {
+      "month": "2026-01",
+      "median_price": 295000.0,
+      "sales": 45664,
+      "provisional": false
+    },
+    {
+      "month": "2026-02",
+      "median_price": 287500.0,
+      "sales": 48771,
+      "provisional": false
+    },
+    {
+      "month": "2026-03",
+      "median_price": 287000.0,
+      "sales": 53421,
+      "provisional": false
+    },
+    {
+      "month": "2026-04",
+      "median_price": 290000.0,
+      "sales": 45592,
+      "provisional": false
+    },
+    {
+      "month": "2026-05",
+      "median_price": 287500.0,
+      "sales": 45340,
+      "provisional": false
+    },
+    {
+      "month": "2026-06",
+      "median_price": 285000.0,
+      "sales": 43806,
+      "provisional": false
+    },
+    {
+      "month": "2026-07",
+      "median_price": 290000.0,
+      "sales": 49379,
+      "provisional": false
+    },
+    {
+      "month": "2026-08",
+      "median_price": 300000.0,
+      "sales": 41849,
+      "provisional": true
+    },
+    {
+      "month": "2026-09",
+      "median_price": 300000.0,
+      "sales": 18501,
+      "provisional": true
+    }
+  ],
+  "england_march_2025_index": 198.56013902106005,
+  "england_april_2025_index": 51.197815383342295,
+  "wales_march_2025_index": 115.8204334365325,
+  "wales_april_2025_index": 94.3343653250774,
+  "lowest_authority": {
+    "name": "Burnley",
+    "median_price": 135000.0,
+    "sales": 3558
+  },
+  "highest_authority": {
+    "name": "Kensington and Chelsea",
+    "median_price": 1088362.5,
+    "sales": 3822
+  }
+}

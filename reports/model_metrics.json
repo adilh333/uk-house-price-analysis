@@ -1,0 +1,191 @@
+{
+  "n_train": 1586030,
+  "n_test": 331973,
+  "train_start": "2024-01-01",
+  "train_end": "2025-12-31",
+  "test_start": "2026-01-01",
+  "test_end": "2026-07-31",
+  "share_test_seen_in_training": 0.9999216803776211,
+  "n_iter": 430,
+  "n_fit": 1374210,
+  "n_validation": 211820,
+  "metrics": [
+    {
+      "model": "Global median",
+      "mae": 161220.66664457653,
+      "rmse": 277070.8881638187,
+      "r2": -0.04767983140016274,
+      "median_ae": 110000.0
+    },
+    {
+      "model": "District \u00d7 type median",
+      "mae": 87947.08513342953,
+      "rmse": 170681.21313405206,
+      "r2": 0.6024257651818283,
+      "median_ae": 48750.0
+    },
+    {
+      "model": "Gradient boosting",
+      "mae": 87454.12953981046,
+      "rmse": 168755.97209400122,
+      "r2": 0.6113442549432222,
+      "median_ae": 49061.066841996275
+    }
+  ],
+  "importance": [
+    {
+      "feature": "region",
+      "label": "Region",
+      "mae_increase": 84480.97170423095,
+      "mae_increase_std": 919.3807720762388
+    },
+    {
+      "feature": "property_type",
+      "label": "Property type",
+      "mae_increase": 50716.79094353337,
+      "mae_increase_std": 608.3886399648976
+    },
+    {
+      "feature": "postcode_district",
+      "label": "Postcode district",
+      "mae_increase": 47068.62914469378,
+      "mae_increase_std": 369.36536831103393
+    },
+    {
+      "feature": "tenure",
+      "label": "Tenure",
+      "mae_increase": 18659.043298111606,
+      "mae_increase_std": 339.51189159058134
+    },
+    {
+      "feature": "new_build",
+      "label": "New build",
+      "mae_increase": 252.98126757387217,
+      "mae_increase_std": 19.3493205245393
+    },
+    {
+      "feature": "time_index",
+      "label": "Months since Jan 2024",
+      "mae_increase": 0.0,
+      "mae_increase_std": 0.0
+    },
+    {
+      "feature": "month",
+      "label": "Calendar month",
+      "mae_increase": -151.6015916918077,
+      "mae_increase_std": 40.19170909505563
+    }
+  ],
+  "error_by_region": [
+    {
+      "region": "East Midlands",
+      "median_ae": 40367.38699675782,
+      "mae": 64450.9454360866,
+      "median_price": 245000.0,
+      "sales": 29323,
+      "relative_ae": 0.16476484488472581
+    },
+    {
+      "region": "East of England",
+      "median_ae": 51741.175143760745,
+      "mae": 87683.6106248765,
+      "median_price": 338450.0,
+      "sales": 37498,
+      "relative_ae": 0.15287686554516397
+    },
+    {
+      "region": "London",
+      "median_ae": 95273.37380974833,
+      "mae": 167680.51675164315,
+      "median_price": 510000.0,
+      "sales": 33813,
+      "relative_ae": 0.18681053688185947
+    },
+    {
+      "region": "North East",
+      "median_ae": 36873.62668480381,
+      "mae": 58390.914900064636,
+      "median_price": 170000.0,
+      "sales": 15149,
+      "relative_ae": 0.21690368638119886
+    },
+    {
+      "region": "North West",
+      "median_ae": 40757.275296614884,
+      "mae": 66888.90482019512,
+      "median_price": 225000.0,
+      "sales": 42935,
+      "relative_ae": 0.1811434457627328
+    },
+    {
+      "region": "South East",
+      "median_ae": 60614.90711149454,
+      "mae": 104453.16577412811,
+      "median_price": 375000.0,
+      "sales": 56075,
+      "relative_ae": 0.16163975229731878
+    },
+    {
+      "region": "South West",
+      "median_ae": 52813.613523445834,
+      "mae": 89290.13435125735,
+      "median_price": 305000.0,
+      "sales": 37460,
+      "relative_ae": 0.17315938860146174
+    },
+    {
+      "region": "Wales",
+      "median_ae": 39693.882623958794,
+      "mae": 60999.180282112495,
+      "median_price": 218000.0,
+      "sales": 17650,
+      "relative_ae": 0.18208203038513207
+    },
+    {
+      "region": "West Midlands",
+      "median_ae": 41722.94128455565,
+      "mae": 68869.45332412436,
+      "median_price": 250000.0,
+      "sales": 30010,
+      "relative_ae": 0.1668917651382226
+    },
+    {
+      "region": "Yorkshire and The Humber",
+      "median_ae": 39709.556511077244,
+      "mae": 64969.01748182955,
+      "median_price": 210000.0,
+      "sales": 32060,
+      "relative_ae": 0.18909312624322497
+    }
+  ],
+  "error_by_type": [
+    {
+      "property_type": "Detached",
+      "median_ae": 87625.25641713897,
+      "mae": 138937.403521132,
+      "median_price": 420000.0,
+      "relative_ae": 0.20863156289794993
+    },
+    {
+      "property_type": "Flat",
+      "median_ae": 46254.241419405065,
+      "mae": 83730.56015712042,
+      "median_price": 220141.0,
+      "relative_ae": 0.2101118892864349
+    },
+    {
+      "property_type": "Semi-detached",
+      "median_ae": 42914.10823995317,
+      "mae": 68599.65449597019,
+      "median_price": 275000.0,
+      "relative_ae": 0.1560513026907388
+    },
+    {
+      "property_type": "Terraced",
+      "median_ae": 37787.30264064524,
+      "mae": 65837.66053858261,
+      "median_price": 240000.0,
+      "relative_ae": 0.15744709433602183
+    }
+  ]
+}
